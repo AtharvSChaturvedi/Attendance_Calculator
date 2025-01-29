@@ -6,10 +6,10 @@ percentage_wanted=float(input("Percentage wanted: "))
 current_percentage=(present_days/days)*100
 days_required=0
 
-if percentage_wanted > 100:
-    print("Percentage cannot be greater than 100.")
+if percentage_wanted >= 100:
+    print("INVALID!")
 elif current_percentage >= percentage_wanted:
-    print("You already meet or exceed the desired percentage.")
+    print("Already achieved")
 else:
     while (present_days/days)*100 < percentage_wanted:
         present_days+=1
