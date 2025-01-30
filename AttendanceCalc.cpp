@@ -29,5 +29,5 @@ int main(){
         }
     }
 
-    cout<<"Number of days required: "<<days_required;
+    cout<<"Number of classes required: "<<days_required;
 }
