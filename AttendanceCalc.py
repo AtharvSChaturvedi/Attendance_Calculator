@@ -16,4 +16,4 @@ else:
         days+=1
         days_required+=1
 
-    print(f"{days_required} more days")
+    print(f"{days_required} classes more")
